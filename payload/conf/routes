@@ -1,0 +1,2 @@
+GET  /                controllers.Root.apply
+GET  /oauth_callback  controllers.OauthCallback.apply(code: Option[String], error: Option[String])
